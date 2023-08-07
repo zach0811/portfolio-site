@@ -1,0 +1,19 @@
+.contact-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-icon {
+    height: 25px;
+    width: 25px;
+    padding: 10px 10px 10px 10px;
+    color: #fb4d5a;
+  }
+
+  .footer h2, h1{
+    color: white;
+  }
+  
+  .footer {
+    background-color: #1f2235;
+  }

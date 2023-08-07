@@ -1,0 +1,110 @@
+.main-page {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 60px;
+    background-color: #1f2235;
+  }
+
+  .about-me-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .about-me-1{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about-me-1 h1{
+color: #fb4d5a;
+  }
+
+  .about-me-1 h2{
+    color: white;
+      }
+
+      .about-me-1 p{
+        color: white;
+          }
+
+  .about-me-1 button {
+    width: 120px;
+      background-color: transparent;
+      border: 1px solid #fb4d5a; /* Outline style */
+      color: #fb4d5a; /* Text color */
+      padding: 10px 20px;
+      border-radius: 10px;
+    
+  }
+
+  .about-me-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+
+  .about-me-picture{
+    margin-top: 50px;
+     box-shadow: 0 0 0.25em  rgba(67,71,85,0.27), 2px 0.25em 24px 0 rgba(90,125,188,0.05); 
+    /* height: 200px;
+    width: 200px */
+    height: auto;
+    width: 100%;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .about-me-section {
+      flex-basis: 100%;
+      flex-direction: row;
+    }
+  
+    .sub-section {
+      flex-basis: 100%;
+    }
+  }
+
+  .experience-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content: space-between;
+    gap: 40px;
+    height: 500px;
+  }
+
+  .experience-1{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+  .experience-2 {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    /* display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center; */
+  }
+  
+  .experience-2 img {
+    float: left;
+    border: 2px solid black;
+    width: 45%;
+    margin: 1.66%;
+  }
+  
+  
