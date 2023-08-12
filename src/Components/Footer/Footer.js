@@ -40,7 +40,7 @@ export const Footer = () => {
         <div className="contact-item">
           <div>
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/zach-wilkins-5740b147/"
               target="_blank"
               rel="noopener noreferrer"
             >
