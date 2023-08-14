@@ -7,53 +7,52 @@
     margin-top: 60px;
     /* background-color: #1f2235; */
     background-color: #203850;
+    font-family: 'Oswald', sans-serif;
   }
 
-  .about-me-section {
+  .info-section {
     display: flex;
     flex-direction: row;
-    margin-top: 70px;
+    /* margin-top: 70px; */
     justify-content: space-between;
     gap: 40px;
+    font-size: 25px;
   }
 
-  .about-me-1{
+  .info-subsection{
     display: flex;
     flex: 1;
     flex-direction: column;
     justify-content: center;
+    font-size: 25px;
   }
 
-  .about-me-1 h1{
+  .info-subsection h1{
 color: #fb4d5a;
+font-size: 25px;
   }
 
-  .about-me-1 h2{
+  .info-subsection h2{
     color: white;
+    font-size: 25px;
       }
 
-      .about-me-1 p{
+      .info-subsection p{
         color: white;
           }
 
-  .about-me-1 button {
-    width: 120px;
-      background-color: transparent;
-      border: 1px solid #fb4d5a; /* Outline style */
-      color: #fb4d5a; /* Text color */
-      padding: 10px 20px;
-      border-radius: 10px;
-    
+  .info-subsection button {
+    width: 250px;
+    border: 1px solid #fb4d5a;
+    color: hsla(0,0%,100%,1);
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #fb4d5a;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
   }
 
-  .about-me-2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-  }
-
-  .about-me-picture{
+  .front-page-picture{
     margin-top: 50px;
      box-shadow: 0 0 0.25em  rgba(67,71,85,0.27), 2px 0.25em 24px 0 rgba(90,125,188,0.05); 
     /* height: 200px;
@@ -74,38 +73,16 @@ color: #fb4d5a;
     }
   }
 
-  .experience-section {
+  .skill-icons{
     display: flex;
-    flex-direction: row;
-    margin-top: 70px;
-    justify-content: space-between;
-    gap: 40px;
-    height: 500px;
   }
 
-  .experience-1{
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-
-  .experience-2 {
-    width: 400px;
-    height: 400px;
-    margin: 0 auto;
-    /* display: flex;
-    flex: 1;
-    flex-direction: column;
-    justify-content: center; */
-  }
-  
-  .experience-2 img {
-    float: left;
-    border: 2px solid black;
-    width: 45%;
-    margin: 1.66%;
-  }
+  .skill-icons i{
+    font-size: 75px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   }
+   
   
   

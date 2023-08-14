@@ -1,14 +1,12 @@
 import portrait from "../../Resources/Outdoor-Portrait.jpg";
 import "./MainPage.css";
-import climbing1 from "../../Resources/climbing1.jpg";
-import climbing2 from "../../Resources/climbing2.jpg";
-import kayak from "../../Resources/kayak.jpg";
+import Card from "../Card/Card";
 
 export const MainPage = () => {
   return (
     <div className="main-page">
-      <div className="about-me-section">
-        <div className="about-me-1" id="home">
+      <div className="info-section">
+        <div className="info-subsection" id="home">
           <h1>Welcome!</h1>
           <h2>My name is Zach.</h2>
           <p>
@@ -20,18 +18,23 @@ export const MainPage = () => {
             <button>Contact Me</button>
           </a>
         </div>
-        <div className="about-me-2">
-          <img className="about-me-picture" src={portrait} alt="portrait" />
+        <div className="info-subsection">
+          <img className="front-page-picture" src={portrait} alt="portrait" />
         </div>
       </div>
-      <div className="about-me" id="about">
-        <h1>About Me</h1>
-        <p>
-          At 30 I made a career switch into software engineering. I work hard
-          every day to develop my skills in order to provide long term value.
-          When I'm not working or studying you can find me spending time
-          outdoors!
-        </p>
+      <div className="info-section">
+        <div className="info-subsection">
+          <img className="front-page-picture" src={portrait} alt="portrait" />
+        </div>
+        <div className="info-subsection">
+          <h1>About Me</h1>
+          <p>
+            At 30 I made a career switch into software engineering. I work hard
+            every day to develop my skills in order to provide long term value.
+            When I'm not working or studying you can find me spending time
+            outdoors!
+          </p>
+        </div>
       </div>
       <div className="section" id="skills">
         <h1>Skills</h1>
@@ -40,15 +43,15 @@ export const MainPage = () => {
           technologies. Below are some of things I've been exposed to.
         </p>
         <div className="skill-icons">
-          <i className="devicon-javascript-plain colored"></i>
-          <i className="devicon-html5-plain colored"></i>
-          <i className="devicon-css3-plain colored"></i>
-          <i className="devicon-java-plain-wordmark colored"></i>
-          <i className="devicon-react-original-wordmark colored"></i>
+          <Card icon={"devicon-javascript-plain colored"} title="Javascript" />
+          <Card icon={"devicon-html5-plain colored"} title="HTML" />
+          <Card icon={"devicon-css3-plain colored"} title="CSS" />
+          <Card icon={"devicon-java-plain-wordmark colored"} title="Java" />
+          <Card icon={"devicon-react-original colored"} title="React" />
         </div>
       </div>
-      <div className="experience-section" id="experience">
-        <div className="experience-1">
+      <div className="info-section" id="about">
+        <div className="info-subsection">
           <h1>Experience</h1>
           <p>
             Prior to switching careers I held management roles for Restoration
@@ -57,11 +60,8 @@ export const MainPage = () => {
             a problem solver and leader.
           </p>
         </div>
-        <div className="experience-2">
-          <img src={climbing1} alt="" />
-          <img src={climbing2} alt="" />
-          <img src={kayak} alt="" />
-          <img src={kayak} preview={false} alt="" />
+        <div className="info-subsection">
+          <img className="front-page-picture" src={portrait} alt="portrait" />
         </div>
       </div>
     </div>

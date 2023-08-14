@@ -28,13 +28,13 @@
     margin: 0;
     padding: 0;
     justify-content: flex-end;
+    
   }
   
   .navbar-links li {
     margin-left: 10px;
     margin-right: 10px;
     list-style: none;
-    font-family: sans-serif;
   }
   
   .navbar-links li a {
@@ -42,29 +42,12 @@
     color: white;
     list-style: none;
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
   }
 
-  /* .hamburger {
-    // removes default border on button element
-    border: 0;
-    height: 40px;
-    width: 40px;
-    padding: 0.5rem;
-    border-radius: 50%;
-    background-color: #283b8b;
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-  // positions the icon to the right and center aligns it vertically
-    position: absolute;
-    top: 50%;
-    right: 25px;
-    transform: translateY(-50%);
-    display: none;
+
+  @media (max-width:768px) {
+
+   
   }
-  .hamburger:hover {
-    background-color: #2642af;
-  }
-  
-  
-   */
