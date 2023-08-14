@@ -1,4 +1,9 @@
 import portrait from "../../Resources/Outdoor-Portrait.jpg";
+import climbing from "../../Resources/climbing1.jpeg";
+import mountain from "../../Resources/mountain1.jpeg";
+import carabiner from "../../Resources/carabiner.png";
+import hiking from "../../Resources/hiking.png";
+import mountain2 from "../../Resources/mountain2.png";
 import "./MainPage.css";
 import Card from "../Card/Card";
 
@@ -7,11 +12,11 @@ export const MainPage = () => {
     <div className="main-page">
       <div className="info-section">
         <div className="info-subsection" id="home">
-          <h1>Welcome!</h1>
+          <h1 className="welcome">Welcome!</h1>
           <h2>My name is Zach.</h2>
           <p>
             I'm a software engineer based out of Atlanta, Georgia. It's my goal
-            to engineer solutions to increase human flourishing throughout the
+            to create solutions that increase human flourishing throughout the
             world.
           </p>
           <a href="#contact">
@@ -22,46 +27,59 @@ export const MainPage = () => {
           <img className="front-page-picture" src={portrait} alt="portrait" />
         </div>
       </div>
-      <div className="info-section">
+      <div className="info-section" id="about">
         <div className="info-subsection">
-          <img className="front-page-picture" src={portrait} alt="portrait" />
+          <img className="front-page-picture" src={climbing} alt="portrait" />
         </div>
         <div className="info-subsection">
           <h1>About Me</h1>
           <p>
-            At 30 I made a career switch into software engineering. I work hard
-            every day to develop my skills in order to provide long term value.
-            When I'm not working or studying you can find me spending time
-            outdoors!
+            At 30 I made a career switch into software engineering. I'm
+            constantly trying to grown and develop in order to provide long term
+            value in a constanlty changing world. When I'm not working or
+            studying you can find me spending time outdoors! I'm most passionate
+            about climbing, hiking, and traveling.
           </p>
+          <div className="outdoor-icons">
+            <img src={carabiner} alt="" />
+            <img src={mountain2} alt="" />
+            <img src={hiking} alt="" />
+          </div>
         </div>
       </div>
-      <div className="section" id="skills">
+      <div className="skills-section" id="skills">
         <h1>Skills</h1>
         <p>
           I've had the privelege of being able to interact with many different
-          technologies. Below are some of things I've been exposed to.
+          technologies. Below are some of tools I've worked with.
         </p>
-        <div className="skill-icons">
+        <div className="skill-icons-lg">
           <Card icon={"devicon-javascript-plain colored"} title="Javascript" />
           <Card icon={"devicon-html5-plain colored"} title="HTML" />
           <Card icon={"devicon-css3-plain colored"} title="CSS" />
-          <Card icon={"devicon-java-plain-wordmark colored"} title="Java" />
+          <Card icon={"devicon-java-plain colored"} title="Java" />
           <Card icon={"devicon-react-original colored"} title="React" />
         </div>
+        <div className="skill-icons-sm">
+          <Card icon={"devicon-github-original colored"} title="Github" />
+          <Card icon={"devicon-git-plain colored"} title="Git" />
+          <Card icon={"devicon-nodejs-plain colored"} title="NodeJS" />
+          <Card icon={"devicon-npm-original-wordmark colored"} title="NPM" />
+          <Card icon={"devicon-spring-plain colored"} title="Spring" />
+        </div>
       </div>
-      <div className="info-section" id="about">
+      <div className="info-section" id="experience">
         <div className="info-subsection">
           <h1>Experience</h1>
           <p>
-            Prior to switching careers I held management roles for Restoration
-            Hardware and Enterprise Rent-a-Car. I also served 10 years in the
-            Marine Corps Reserve. These roles have been crucial in shaping me as
-            a problem solver and leader.
+            Prior to breaking into software engineering, I held management roles
+            for Restoration Hardware and Enterprise Rent-a-Car. I also served 10
+            years in the Marine Corps Reserve. These roles have been crucial in
+            shaping me as a problem solver and leader.
           </p>
         </div>
         <div className="info-subsection">
-          <img className="front-page-picture" src={portrait} alt="portrait" />
+          <img className="front-page-picture" src={mountain} alt="portrait" />
         </div>
       </div>
     </div>
