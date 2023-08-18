@@ -44,4 +44,89 @@
     font-family: sans-serif;
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
+    border-bottom: 3px solid transparent;
+  }
+
+  .navbar-links li a:hover {
+    color: #fb4d5a;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 3px solid transparent;
+  }
+
+  .hamburger{
+    display: none; 
+    z-index: 6;
+} 
+
+
+
+  @media (max-width: 768px) {
+    .navbar-container-hamburger {
+      display: block;
+      height: 200px;
+      width: 200px;
+      margin-right: 5px;
+      margin-top: 275px;
+      position: fixed;
+      border: 1px solid white;
+      border-color: white;
+      border-radius: 10px;
+      background-color: #203850;
+      right: 0;
+    }
+
+    .navbar-container{
+      display: none;
+    }
+    
+
+    .hamburger{
+      width: 2rem;
+      height: 2rem;
+      display: flex;
+      justify-content: space-around;
+      flex-flow: column nowrap;
+      z-index: 10;
+      margin-right: 25px;
+  }
+  
+  .burger{
+      width: 2rem;
+      height: 0.25rem;
+      border-radius: 10px;
+      background-color: white;
+      transform-origin: 1px;
+      transition: all 0.3s linear;
+  }
+
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+    flex-direction: column;
+    
+  }
+  
+  .navbar-links li {
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+  }
+  
+  .navbar-links li a {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 3px solid transparent;
+  }
+
+    
   }

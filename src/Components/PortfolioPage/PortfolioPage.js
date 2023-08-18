@@ -1,4 +1,4 @@
-import Navbar from "../NavBar/NavBar";
+import { Navbar } from "../NavBar/NavBar";
 import { Footer } from "../Footer/Footer";
 import { MainPage } from "../MainPage/MainPage";
 

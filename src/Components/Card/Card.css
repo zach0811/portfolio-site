@@ -21,3 +21,12 @@
     font-size: 18px;
     margin: 0;
   }
+
+  @media (max-width: 768px) {
+    .card {
+      display: flex;
+      flex-direction: column;
+      padding: 5px
+    }
+
+  }

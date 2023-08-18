@@ -32,7 +32,13 @@ export const Footer = () => {
             <h2>678-549-8922</h2>
           </div>
           <div className="contact-item">
-            <IoLocationOutline className="contact-icon" />
+            <a
+              href="https://goo.gl/maps/JiXRUQfuht2Zwb9e7"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IoLocationOutline className="contact-icon" />
+            </a>
             <h2>Alpharetta, GA</h2>
             <FaFlagUsa className="contact-icon" />
           </div>

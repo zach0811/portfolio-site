@@ -26,6 +26,7 @@
     justify-content: center;
     font-size: 25px;
     flex: 50%;
+    align-items: center;
   }
 
 
@@ -67,13 +68,16 @@ font-size: 60px;
     /* height: 200px;
     width: 200px */
     height: auto;
-    width: 100%;
-    border-radius: 5px;
+    width: 70%;
+    border-radius: 30px;
+    
   }
 
   .skills-section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .skills-section h1 {
@@ -86,53 +90,25 @@ font-size: 40px;
     font-size: 25px;
   }
 
-  .skill-icons-lg{
+  .skill-icons{
     display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* Distribute icons evenly */
+    /* flex-wrap: wrap; */
   }
 
-  .skill-icons-sm{
-    display: flex;
-   
-  }
 
-  .skill-icons-lg i{
-    font-size: 75px;
+  .skill-icons i{
+    /* font-size: 75px;
     padding: 10px 10px 10px 10px;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 40px; */
+    font-size: 4rem; /* Adjust the relative font size using rem or em */
+    padding: 1rem; /* Adjust padding using relative units */
+    margin: 1rem 0; /* Adjust margin using relative units */
+    text-align: center;
    }
 
-   .skill-icons-sm i{
-    font-size: 75px;
-    padding: 10px 10px 10px 10px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-   }
-
-
-   .card-lg {
-    width: 100%;
-    max-width: 300px; /* Adjust this value to your preference */
-    border: 1px solid #eddfc2;
-    border-radius: 5px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    background-color: #e8e8e0;
-  }
-
-  .card-sm {
-    width: 100%;
-    max-width: 300px; /* Adjust this value to your preference */
-    border: 1px solid #eddfc2;
-    border-radius: 5px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    background-color: #e8e8e0;
-  }
 
   .outdoor-icons {
     margin-top: 10px;
@@ -152,11 +128,34 @@ font-size: 40px;
       height: auto; 
     }
 
+    .skill-icons {
+      flex-wrap: wrap;
+    }
+
+    .skill-icons i{
+      /* font-size: 75px;
+      padding: 10px 10px 10px 10px;
+      margin-top: 40px;
+      margin-bottom: 40px; */
+      font-size: 2rem; /* Adjust the relative font size using rem or em */
+      padding: 1rem; /* Adjust padding using relative units */
+      margin: 1rem 0; /* Adjust margin using relative units */
+      text-align: center;
+     }
+
     
   
     .info-subsection {
       flex-basis: 100%;
       background-color: #203850;
+    }
+
+    .skill-icons-lg {
+      display: flex;
+    }
+
+    .skill-icons-sm {
+      display: flex;
     }
 
     .main-page {
@@ -169,6 +168,8 @@ font-size: 40px;
       /* background-color: #1f2235; */
       background-color: #203850;
       font-family: 'Oswald', sans-serif;
+
+
     }
   }
    
