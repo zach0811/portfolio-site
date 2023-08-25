@@ -16,8 +16,7 @@ export const MainPage = () => {
           <h2>My name is Zach.</h2>
           <p>
             I'm a software engineer based out of Atlanta, Georgia. It's my goal
-            to create solutions that increase human flourishing throughout the
-            world.
+            to create solutions that provide value wherever I go.
           </p>
           <a href="#contact">
             <button>Contact Me</button>
