@@ -19,11 +19,13 @@ export const MainPage = () => {
             to create solutions that provide value wherever I go.
           </p>
           <a href="#contact">
-            <button>Contact Me</button>
+            <button>Contact Me!</button>
           </a>
         </div>
         <div className="info-subsection">
-          <img className="front-page-picture" src={portrait} alt="portrait" />
+          <div className="image-container">
+            <img className="front-page-picture" src={portrait} alt="portrait" />
+          </div>
         </div>
       </div>
       <div className="info-section" id="about">
@@ -34,12 +36,13 @@ export const MainPage = () => {
           <h1>About Me</h1>
           <p>
             At 30 I made a career switch into software engineering. I'm
-            constantly trying to grown and develop in order to provide long term
+            constantly trying to grow and develop in order to provide long term
             value in a constanlty changing world.
           </p>
           <p>
             When I'm not working or studying you can find me spending time
-            outdoors! I'm most passionate about climbing, hiking, and traveling.
+            outdoors, exploring, reading, and cooking! I'm most passionate about
+            climbing, hiking, and traveling.
           </p>
           <div className="outdoor-icons">
             <img src={carabiner} alt="" />
@@ -49,10 +52,11 @@ export const MainPage = () => {
         </div>
       </div>
       <div className="skills-section" id="skills">
-        <h1>Skills</h1>
+        <h1>&lt; Skills /&gt;</h1>
         <p>
           I've had the privelege of being able to interact with many different
-          technologies. Below are some of tools I've worked with.
+          technologies and tools. Below are some of the technologies I've worked
+          with.
         </p>
         <div className="skill-icons">
           <Card icon={"devicon-javascript-plain colored"} title="Javascript" />

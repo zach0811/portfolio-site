@@ -20,6 +20,21 @@
   .navbar-container{
     display: flex;
     margin-right: 40px;
+    overflow: hidden;
+  }
+
+  .navbar-container li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .navbar-container li:hover {
+    border-bottom: 3px solid #fb4d5a;
   }
   
   .navbar-links {
@@ -40,15 +55,6 @@
   .navbar-links li a {
     text-decoration: none;
     color: white;
-    list-style: none;
-    font-family: sans-serif;
-    font-size: 25px;
-    font-family: 'Oswald', sans-serif;
-    border-bottom: 3px solid transparent;
-  }
-
-  .navbar-links li a:hover {
-    color: #fb4d5a;
     list-style: none;
     font-family: sans-serif;
     font-size: 25px;
